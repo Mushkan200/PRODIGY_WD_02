@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #a441ad;
+    background-image: url(https://www.technocrazed.com/wp-content/uploads/2015/12/Simple-wallpaper-52.jpg);
+}
+
+.stopwatch {
+    background-color: rgb(228, 122, 154);
+    border: 1px solid #2e2e2e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.display {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.buttons button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.laps {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.laps h2 {
+    margin-bottom: 10px;
+}
+
+#laps-list {
+    list-style: type;
+    padding: 0;
+}
+
+#laps-list li {
+    border-bottom: 1px solid #e167b6;
+    padding: 5px 0;
+}
